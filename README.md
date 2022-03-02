@@ -1,1 +1,1 @@
-# platzi-curso-practico-javascriptWilder
+# platzi-curso-practico-javascript
