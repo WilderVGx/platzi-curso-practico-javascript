@@ -33,17 +33,22 @@ console.group("Círculos");
 
 // Radio
 const radioCirculo = 4;
+console.log("El radio del círculo es: " + radioCirculo + "cm.");
 
 // Diámetro
 const diametroCirculo = radioCirculo * 2;
+console.log("El diámetro del círculo es " + diametroCirculo + "cm.");
 
 // PI
 const PI = Math.PI;
+console.log("El valor de PI es " + PI);
 
 // Circunferencia
 const perimetroCirculo = diametroCirculo * PI;
 
+
 // Área
 const areaCirculo = (radioCirculo * radioCirculo) * PI;
+
 
 console.groupEnd();
