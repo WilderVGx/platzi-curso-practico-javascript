@@ -27,3 +27,9 @@ const areaTriangulo = (baseTriangulo * alturaTriangulo) / 2;
 console.log("El área del triángulo es: " + areaTriangulo + "cm².");
 
 console.groupEnd();
+
+// Código del Círculo
+console.group("Círculos");
+
+
+console.groupEnd();
