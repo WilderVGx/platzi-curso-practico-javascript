@@ -1,16 +1,14 @@
 # Curso-Práctico-de-JavaScript
 
-## Practicando un poco de JS :)
-
 ### Modulos:
 
-#### Figuras Geométricas
+## Taller #1: Figuras Geométricas
   - Primer paso: Definir las fórmulas
   - Segundo paso: Implementar las fórmulas en Javascript
   - Tercer paso: Crear Funciones
   - Cuarto paso: Integrar Js con HTML
 
-#### Precios & Descuentos
+## Taller #2: Porcentajes & Descuentos
   - Primer paso: Definir las fórmulas
   - Segundo paso: Implementar las fórmulas en Javascript
   - Tercer paso: Crear Funciones
