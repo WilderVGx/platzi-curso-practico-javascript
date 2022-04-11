@@ -4,7 +4,7 @@ function cuadrado(ladoCuadrado){
     let areaC = ladoCuadrado * ladoCuadrado;
     console.group("Cuadrado");
     console.log(`El perímetro del cuadrado es: ${perimetroC}cm`);
-    console.log(`El área del cuadrado es: ${areaC}cm^2`);
+    console.log(`El área del cuadrado es: ${areaC}cm²`);
     console.groupEnd();
 }
 
@@ -14,7 +14,7 @@ function cuadrado2(){
     let perimetroC = ladoCuadrado + ladoCuadrado + ladoCuadrado + ladoCuadrado;
     let areaC = ladoCuadrado * ladoCuadrado;
 
-    alert(`El perímetro del cuadrado es: ${perimetroC}cm y el área es: ${areaC}cm^2`);
+    alert(`El perímetro del cuadrado es: ${perimetroC}cm y el área es: ${areaC}cm²`);
 }
 
 cuadrado(156);
@@ -27,7 +27,7 @@ function trinagulo(lado1, lado2, base, altura){
 
     console.group("Triangulo");
     console.log(`El perímetro del triangulo es: ${perimetroT}cm`)
-    console.log(`El área del triangulo es: ${areaT}cm^2`)
+    console.log(`El área del triangulo es: ${areaT}cm²`)
     console.groupEnd();
 }
 
@@ -47,7 +47,7 @@ function triangulo2(){
     let tPerimetro = tLado1 + tLado2 + tBase;
     let tArea = (tBase*tAltura)/2;
 
-    alert(`El perímetro del triangulo es: ${tPerimetro}cm y el área es de ${tArea}cm^2`);
+    alert(`El perímetro del triangulo es: ${tPerimetro}cm y el área es de ${tArea}cm²`);
 
 }
 
@@ -63,7 +63,7 @@ function circulo(radio){
 
     console.group("Circulo");
     console.log(`El perímetro del circulo es: ${perimetroCi}cm`);
-    console.log(`El área del circulo es: ${areaCi}cm^2`);
+    console.log(`El área del circulo es: ${areaCi}cm²`);
     console.groupEnd();
 }
 
@@ -78,7 +78,7 @@ function circulo2(){
     let perimetroCi = diametroCi * PI;
     let areaCi = PI * (cRadio**2);
 
-    alert(`El perímetro del circulo es: ${perimetroCi}cm y el área es: ${areaCi}cm^2`);
+    alert(`El perímetro del circulo es: ${perimetroCi}cm y el área es: ${areaCi}cm²`);
 }
 
 //Triangulo Isósceles
