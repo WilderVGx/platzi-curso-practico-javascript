@@ -13,7 +13,7 @@ function cuadrado2(){
     let ladoCuadrado = parseFloat(elemento.value);
     let perimetroC = ladoCuadrado + ladoCuadrado + ladoCuadrado + ladoCuadrado;
     let areaC = ladoCuadrado * ladoCuadrado;
-
+    // centímetro cuadrado = alt + 253
     alert(`El perímetro del cuadrado es: ${perimetroC}cm y el área es: ${areaC}cm²`);
 }
 
