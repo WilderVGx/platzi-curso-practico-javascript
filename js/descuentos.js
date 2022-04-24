@@ -8,5 +8,5 @@ function aplicarDescuento(){
     let precioFinal = (precio * (100-descuento))/100;
 
     const p = document.getElementById("priceWithDiscount");
-    p.innerText=`El precio final es: $${precioFinal}`;
+    p.innerText=`El precio final es: S/.${precioFinal}`;
 }
